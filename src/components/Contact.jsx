@@ -14,14 +14,14 @@ const Contact = () => {
                     name='name'
                     />
                 </div>
-                <div className='flex flex-col'>
+                {/* <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Phone</label>
                     <input 
                     className='border-2 rounded-lg p-3 flex border-gray-300' 
                     type="text" 
                     name='phone'
                     />
-                </div>
+                </div> */}
             </div>
             <div className='flex flex-col py-2'>
                 <label className='uppercase text-sm py-2'>Email</label>
@@ -31,10 +31,10 @@ const Contact = () => {
                 name='email'
                 />
             </div>
-            <div className='flex flex-col py-2'>
+            {/* <div className='flex flex-col py-2'>
                 <label className='uppercase text-sm py-2'>Subject</label>
                 <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="Subject"></input>
-            </div>
+            </div> */}
             <div className='flex flex-col py-2'>
                 <label className='uppercase text-sm py-2'>Message</label>
                 <textarea className ='border-2 rounded-lg p-3 border-gray-300' name="Message" rows="10"></textarea>
