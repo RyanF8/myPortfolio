@@ -1,17 +1,17 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import JeopardyImg from '../../assets/jeopardy-screenshot.png';
-import ReactImg from '../../assets/react-chat-screenshot.png';
+// import JeopardyImg from 'https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg';
+// import ReactImg from 'https://cdn.prod.website-files.com/62d84e447b4f9e7263d31e94/637627ca9eebde45ae5f394c_Underwater-Nun.jpeg';
 
 const Projects = () => {
   const projects = [
     {
-      img: JeopardyImg,
+      img: 'https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg',
       title: 'Jeopardy App',
       link: 'https://github.com/uprighted-learners/jeopardy-project-1-RyanF8', 
     },
     {
-      img: ReactImg,
+      img: 'https://cdn.prod.website-files.com/62d84e447b4f9e7263d31e94/637627ca9eebde45ae5f394c_Underwater-Nun.jpeg',
       title: 'React Chat App',
       link: 'https://github.com/uprighted-learners/react-chat-supercoolteam', 
     },
