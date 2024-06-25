@@ -1,5 +1,5 @@
 import React from 'react'
-import Images from '../../public/assets/Images'
+import Images from '../../assets/Images'
 import { TypeAnimation } from 'react-type-animation'
 import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa'
 
