@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import JeopardyImg from '../assets/jeopardy-screenshot.png';
-import ReactImg from '../assets/react-chat-screenshot.png';
+import JeopardyImg from '../../public/assets/jeopardy-screenshot.png';
+import ReactImg from '../../public/assets/react-chat-screenshot.png';
 
 const Projects = () => {
   const projects = [
