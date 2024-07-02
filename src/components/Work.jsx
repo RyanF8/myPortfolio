@@ -3,6 +3,12 @@ import WorkItem from './WorkItem'
 
 const data = [
     {
+        year: 2019,
+        title: 'Service Adviser - REI Vermont',
+        duration: '2 years',
+        details: 'Supported daily operations of the bicycle and ski service department, shop organization, and scheduling. Offered expert advice to customers on gear selection, maintenance, and usage, while ensuring all repairs met stringent quality control standards for skis and bikes. Specialized in diagnosing and repairing various bicycle issues, covering drivetrain, suspension, and electrical systems',
+    },
+    {
         year: 2024,
         title: 'Software Development Certification - Upright Education',
         duration: '6 months',
