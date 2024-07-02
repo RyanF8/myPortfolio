@@ -14,6 +14,11 @@ const Projects = () => {
       title: 'React Chat App',
       link: 'https://github.com/uprighted-learners/react-chat-supercoolteam', 
     },
+    {
+      img: Images.guessTheNumberImg,
+      title: 'Guess The Number Game',
+      link: 'https://github.com/RyanF8/Guess-The_Number-Game-RyanF8',
+    },
     // Add more projects as needed here
   ];
 
@@ -22,21 +27,18 @@ const Projects = () => {
       <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Projects</h1>
       <p className='text-center py-8'>
       Jeopardy Board | Web-based interactive jeopardy game that utilizes Javascript for functionality and CSS3
-Purpose: Developed a Jeopardy board game web application using HTML, CSS, and JavaScript. Implemented game logic, question display, player score tracking, and user interaction features.
-Key Components and Technologies:
-Developed HTML, CSS, and JavaScript components for game logic, player score tracking, and user interaction features.
-Created popup modals for displaying questions and implemented user interaction functionalities such as answer submission and guess/pass options.
-Maintained version control using Git and optimized code for performance and usability.
+Jeopardy Game | Developed a Jeopardy board game web application using HTML, CSS, and JavaScript. Implemented game logic, question display, player score tracking, and user interaction features.
+features.
 Highlight Skills: Javascript | CSS | HTML | Git | Agile | CI/CD
 <br/>
 
 RW Chat App | Web-based real-time chat application with user sign-up/ login and multiple chat rooms.
-Purpose: Developed a real-time chat application using React.js for the frontend and Node.js with Express.js for the backend. Implemented user authentication, message persistence, and real-time updates.
-Key Components and Technologies:
-Developed frontend chat interface components and authentication forms using React.js and backend APIs with Node.js and Express.js.
-Implemented user authentication with JWT, real-time communication using WebSocket, and room management features, enhancing user experience and engagement.
-Utilized MongoDB for message persistence and database interaction, ensuring data reliability and scalability.
+Developed a real-time chat application using React.js for the frontend and Node.js with Express.js for the backend.
 Highlight Skills: Git | React | Reactstrap | Express| Postman | MongoDB | JavaScript | CSS3 | HTML5 | CI/CD | Agile
+<br/>
+
+Guess The Number | Console game where users can guess the computers number or they can pick a number and the computer tries to guess it.
+Highlight skills: git | JavaScript 
       </p>
       <div className='grid sm:grid-cols-2 gap-12'>
         {projects.map((project, index) => (
