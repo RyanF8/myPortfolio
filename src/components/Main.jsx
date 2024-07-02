@@ -26,10 +26,7 @@ function Main() {
                 style={{ fontSize: '1em', paddingLeft: '5px'}}
                 />
             </h2>
-            <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                <a href='https://x.com/wildFlounder8' target='_blank' rel='noreferrer'>
-                <FaTwitter className='cursor-pointer' size={20} />
-                </a>
+            <div className='flex justify-evenly pt-6 max-w-[200px] w-full'>
                 <a href='https://www.linkedin.com/in/ryan-fish-15791517b/' target='_blank' rel='noreferrer'>
                 <FaLinkedin className='cursor-pointer' size={20} />
                 </a>
