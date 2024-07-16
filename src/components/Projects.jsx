@@ -20,9 +20,9 @@ const Projects = () => {
       link: 'https://github.com/RyanF8/Guess-The_Number-Game-RyanF8',
     },
     {
-      img: Images.zorkingtonImg,
-      title: 'Zorkington',
-      link: 'https://github.com/RyanF8/Zorkington/tree/main',
+      img: Images.capstoneMapImg,
+      title: 'Capstone Project',
+      link: 'https://indianapolis-bus-stop-project.onrender.com/',
     }
     // Add more projects as needed here
   ];
@@ -45,8 +45,8 @@ Highlight Skills: Git | React | Reactstrap | Express| Postman | MongoDB | JavaSc
 Highlight skills:  JavaScript | Git | Agile | CI/CD
 <br/>
 
-<b>Zorkington</b> | A text-based adventure game in the console.
-Highlight skills:  JavaScript | Git | Agile | CI/CD
+<b>Indianapolis Volenteer Project</b> | Capstone group project to provide a way for locals in Indianapolis to sponsor a bus stop to look after and clean it. 
+Highlight skills:  Git | React | Reactstrap | Express| Postman | MySQL | JavaScript | CSS3 |  HTML5 | Agile | CI/CD | React-Leaflet
       </p>
       <div className='grid sm:grid-cols-2 gap-12'>
         {projects.map((project, index) => (
